@@ -1,0 +1,41 @@
+<html lang="pt-br">
+    <head>
+        <title>Teste Prático</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="src/scripts.js"></script>
+        
+    </head>
+    <body>
+        <div class="general">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="left">
+                        <form>
+                            <div class="form-group">
+                              <h4>Comentário</h4>
+                              <textarea class="form-control" id="commentBox" rows="5" maxlength="255" placeholder="Escreva um comentário até 255 caracteres."></textarea>
+                              <span id="counter" class="rodape-text">Caracteres restantes: 255</span><br>
+                              <button id="button1" type="reset" class="btn btn-primary">Cadastrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div id="content" class="right">
+                        <h4>Comentários</h4>
+                    </div>
+                </div>  
+                <audio hidden>
+                    <source id="source" src="" type="audio/wav">
+                </audio> 
+                
+            </div>        
+        </div>
+    </body>
+    
+</html>

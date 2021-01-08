@@ -1,0 +1,44 @@
+div.general div.row div.col-sm-6 div.left{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+div.general div.row div.col-sm-6 div.left textarea.form-control{
+    width: 90%;
+}
+
+div.general div.row div.col-sm-6 div.left form button{
+    width: 90%;
+    margin-top: 2%;
+}
+
+div.general div.row div.col-sm-6 div.right{
+    width: 100%;
+    margin-top: 2%;
+}
+
+div.general div.row div.col-sm-6 div.right div.card{
+    margin-bottom: 6px;
+    width: 90%;
+}
+
+div.general{
+    width: 99.2%;
+}
+
+.card-style {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.text-style {
+    text-align: justify;
+    padding-right: 5%;
+}
+
+.rodape-text {
+    font-weight: 400;
+}
+
+
+
