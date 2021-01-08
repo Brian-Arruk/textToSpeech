@@ -19,7 +19,7 @@ $(function(){
                     });
                 },
                 400:() => {
-                    alert('ERROR 400: Não foi possível buscar comentário');
+                    alert('ERROR 400: Não foi possível buscar comentários');
                 }
             }
             
